@@ -32,5 +32,9 @@ app.get('/utf8ify.js', function(req, res){
 //    res.download(__dirname+'/utf8ify.js');
 });
 
+app.get('/public/:file', function(req, res){
+    res.download(__dirname+'/public/'+req.params.file);
+});
 
-app.listen(8001);
+
+app.listen(3000);
