@@ -4,7 +4,7 @@ app.register('.html', require('sizlate'));
 var fs = require('fs');
 
 
-var utf8ify = require('./utf8ify.js');
+var utf8ify = require('./public/utf8ify.js');
 
 
 app.use(express.bodyParser());
@@ -23,16 +23,5 @@ app.post('/', function(req, res){
 		}
 	});
 });
-
-
-app.get('/utf8ify.js', function(req, res){
-	fs.readFile(__dirname+'/utf8ify.js', 'utf8', function(error, file) {
-		res.send(file);
-	});
-//    res.download(__dirname+'/utf8ify.js');
-});
-
-
-
 
 app.listen(8001);
