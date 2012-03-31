@@ -29,6 +29,14 @@
 		width: 80%;
 	}
 	
+	#results {
+		background: red;
+		width: 80%;
+	}
+	
+	.hidden {
+		display: none;
+	}
 	.button, 
 	textarea {
 		background: #222;

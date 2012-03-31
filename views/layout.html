@@ -7,7 +7,8 @@
 <body>
 	<div role="main" id="main">
 		<h1>utf8ify.com</h1>
-		<form method="GET" action="/">
+		<form method="POST" action="/">
+			<h2>Input</h2>
 
 		    <textarea  name="text">
 ΑβξφŒ - look at those dodgy characters.
@@ -19,6 +20,12 @@ Click the utf8ify button below.
 
  		<input type="submit" value="uft8ify" class="button" /> 
 		</form>
+		
+		<div id="result">
+			<h2>Output</h2>
+			<textarea></textarea>
+
+		</div>
 			<p class="about">
 				This site makes text safe for use in HTML documents.  
 			</p>
