@@ -3,7 +3,9 @@ $(document).ready(function() {
 	$textarea.focus();
 	$('input[type="submit"]').click(function(e) {
 		e.preventDefault();
-		$textarea.val(utf8ify.parse($textarea.val()));
+		var text = $textarea.val();
+		history.pushState({}, {}, '/?text=' + text);
+//		$textarea.val(utf8ify.parse(text));
 /*		
 		$('body').append('<div id="notice">Your text has been utf8ified.</div>');
 		$('#notice').css({
