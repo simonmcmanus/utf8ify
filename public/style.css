@@ -61,9 +61,9 @@
 		/* For WebKit (Safari, Google Chrome etc) */
 		background: -webkit-gradient(linear, left top, left bottom, from(#0B3861), to(#6374AB));
 		/* For Mozilla/Gecko (Firefox etc) */
-		background: -moz-linear-gradient(top, #FFFFFF, #FF8D2C);
+		background: -moz-linear-gradient(top, #0B3861, #6374AB);
 		/* For Internet Explorer 5.5 - 7 */
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FF8D2C);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0B3861, endColorstr=#6374AB);
 		/* For Internet Explorer 8 */
 		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#FF8D2C)";
 		/*Transition*/

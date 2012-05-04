@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	var $textarea = $('textarea');
 	$textarea.focus();
-/*	$('input[type="submit"]').click(function(e) {
+$('input[type="submit"]').click(function(e) {
 		e.preventDefault();
 		var text = $textarea.val();
 		history.pushState({}, {}, '/?text=' + text);
@@ -20,4 +20,4 @@ $(document).ready(function() {
 		
 
 	});
-*/});
+});
