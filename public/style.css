@@ -22,7 +22,8 @@
 		font-family: sketch;
 		color: #6374AB;
 		font-size: 4.5em;
-		text-shadow: #fff 1px 0px 1px, #fff 0px 0px 140px;;
+		text-shadow: #fff 1px 0px 1px, #fff 0px 0px 140px;
+		font-weight: normal;
 	}
 	#main {
 		margin: 4% 10%;
