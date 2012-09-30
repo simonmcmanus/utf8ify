@@ -1,1 +1,1 @@
-web: node sizlate.js
+web: node app2.js
