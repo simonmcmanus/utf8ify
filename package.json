@@ -2,11 +2,11 @@
   "name": "node-example",
   "version": "0.0.1",
   "dependencies": {
-    "express": "2.5.x"
+    "express": "3.0.x",
+    "sizlate": "0.7.1rc"
   },
   "engines": {
     "node": "0.8.x",
-    "npm": "1.1.x",
-    "sizlate": "1.1.x",
+    "npm": "1.1.x"
   }
 }
